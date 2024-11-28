@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    font-family: Arial ;
+    border: border-box;
+}
+.main{
+    height:60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* logo */
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    height: 50px;
+    width: 100px;
+    background-image: url(logo.jpeg);
+    background-size: cover;
+}
+/* transparent border */
+.border{
+    border:2px,solid,transparent;
+}
+.border:hover{
+    border:2px,solid,white;
+}
+/* location */
+.nav-add1{
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.nav-add2{
+    color: #FFFFFF;
+    font-size: 1rem;
+    margin-left:3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+#location{
+    color: white;
+}
+/* search bar */
+.searchbar{
+    height: 40px;
+    width: 620px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 4px;
+}
+.searchbar:hover{
+    border:2px,solid,rgb(245, 127, 30);
+}
+#searchicon{
+    color: black;
+}
+.icon{
+    background-color: rgb(245, 127, 30);
+    height: 40px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 1.2rem;
+}
+.inputt{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    padding: 10px 10px 10px 10px;
+}
+.search-select{
+    height:40px;
+    width:50px;
+    background-color: #f3f3f3;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+/* sign in */
+.sign-in{
+    color: white;
+}
+.hello{
+    font-size: 0.85rem;
+}
+.account{
+    font-weight: bold;
+}
+/* manage order */
+.manageorder{
+    color: white;
+}
+.return{
+    font-size: 0.85rem;
+}
+.order{
+    font-weight: bold;
+}
+/* shopping cart */
+.cart{
+    color: white;
+    font-size: 0.6rem;
+}
+.carticon{
+    color: white;
+    font-size: 1.4rem;
+}
+/* options panel */
+.panel{
+    background-color: #0c0b1b;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.all{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.mainpanel a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.mainpanel{
+    width:80%;
+    font-size: 0.85rem;
+}
+/* herosection */
+.herosection{
+    background-image: url(background.jpg);
+    background-size: cover;
+    height: 300px;
+}
+/* main layout shopping section */
+.shopsection{
+    display: flex;
+    align-items: normal;
+    justify-content: space-evenly;
+    background-color: rgb(247, 246, 185);
+    /* border: 2px solid black; */
+
+}
+.shopsection2{
+    display: flex;
+    align-items: normal;
+    justify-content: space-evenly;
+    /* margin-top:50px; */
+    /* border: 2px solid black; */
+    background-color: rgb(247, 246, 185);
+}
+.spacing{
+    height: 10px;
+    background-color: rgb(247, 246, 185);
+}
+.box{
+    height: 320px;
+    width: 300px;
+    background-color: white;
+    padding:20px 0px 15px 0px;
+}
+/* accessories */
+.aimage{
+    width: 270px;
+    height: 245px;
+    background-image: url(accessories.jpg);
+    background-size: cover;
+    margin: 8px 0px 23px 0px;
+}
+.contentarea{
+    margin:0px 10px 0px 14px;
+}
+.contentarea a{
+    color: blue;
+    text-decoration: none;
+}
+.contentarea a:hover{
+    color: red;
+    text-decoration: underline;
+}
+/* clothes */
+.cimage{
+    width: 270px;
+    height: 245px;
+    background-image: url(clothes.jpg);
+    background-size: cover;
+    margin: 8px 0px 23px 0px;
+}
+.comimage{
+    width: 270px;
+    height: 245px;
+    background-image: url(computer.jpg);
+    background-size: cover;
+    margin: 8px 0px 23px 0px;
+}
+.diimage{
+    width: 270px;
+    height: 245px;
+    background-image: url(dining.jpg);
+    background-size: cover;
+    margin: 8px 0px 23px 0px;
+}
+.decimage{
+    width: 270px;
+    height: 245px;
+    background-image: url(decoration.jpg);
+    background-size: cover;
+    margin: 8px 0px 23px 0px;
+}
+.toyimage{
+    width: 270px;
+    height: 245px;
+    background-image: url(toys.jpg);
+    background-size: cover;
+    margin: 8px 0px 23px 0px;
+}
+.kimage{
+    width: 270px;
+    height: 245px;
+    background-image: url(kitchen.jpg);
+    background-size: cover;
+    margin: 8px 0px 23px 0px;
+}
+.vimage{
+    width: 270px;
+    height: 245px;
+    background-image: url(video.jpg);
+    background-size: cover;
+    margin: 8px 0px 23px 0px;
+}
+.footpanel{
+    height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #33445a;
+    color: white;
+}
+.otherfootpanel{
+    height: 400px;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+.otherfootpanel ul a{
+    text-decoration: none;
+    color: #999999;
+    display:block;
+    margin-top:10px;
+}
+.otherfootpanel p{
+    margin-top: 50px;
+    font-weight: bold;
+}
+.footline{
+    height: 68px;
+    background-color: #232f3e;
+    border-top: 1px solid #999999;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footicon{
+    margin-top: 10px;
+    height: 50px;
+    width: 90px;
+    /* background-color: #FFFFFF; */
+    background-image: url(footlogo.png);
+    background-size: cover;
+}
+.footlang{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+    height: 30px;
+    width: 140px;
+    color: white;
+    border: 1px solid #999999;
+}
+.footcurrency{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+    height: 30px;
+    width: 140px;
+    color: white;
+    border: 1px solid #999999;
+    font-size: 0.85rem;
+}
+.footcountry{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+    height: 30px;
+    width: 140px;
+    color: white;
+    font-size: 0.85rem;
+    border: 1px solid #999999;
+}
+.footline a{
+    text-decoration: none;
+    color: #999999;
+}
+.footlang select{
+    background-color: #232f3e;
+    color: #999999;
+    border: none;
+}
+.signingpanel{
+    /* border: 1px solid #999999; */
+    height: 80px;
+    padding:20px 0px 20px 0px;
+    text-align: center;
+}
+.signingpanel button{
+    background-color:rgb(245, 127, 30) ;
+    width: 230px;
+    border: none;
+}
+.signingpanel p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 0.85rem;
+}
+.signingpanel a{
+    text-decoration: none;
+}
